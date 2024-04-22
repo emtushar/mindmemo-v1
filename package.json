@@ -1,0 +1,16 @@
+{
+  "name": "mind-memo-backend",
+  "version": "1.0.0",
+  "description": "Backend of Mind Memo , a web app to streamline your thoughts.(without database)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emtushar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

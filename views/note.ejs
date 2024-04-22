@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=data.title%></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="w-full min-h-screen bg-zinc-900 text-white p-8">
+    <a class="bg-zinc-300 text-zinc-900 px-4 py-2 rounded-md" href="/">
+      🡰 Back to Home</a
+    >
+    <div
+      class="w-full min-h-[400px] p-10 bg-zinc-700 mt-10 rounded-lg flex flex-col gap-10"
+    >
+      <h2 class="text-3xl text-zinc-100 font-semibold"><%=data.title%></h2>
+      <p class="text-xl text-zinc-300"><%=data.details%></p>
+    </div>
+  </body>
+</html>
