@@ -1,8 +1,9 @@
 import express from "express";
 import dataArray from "./constants.js";
+import dotenv from "dotenv";
 
 const app = express();
-const PORT = 3000;
+dotenv.config({ path: "./.env" });
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -71,6 +72,8 @@ app.post("/update", (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server started successfully at http://localhost:${PORT}`);
+app.listen(process.env.PORT, () => {
+  console.log(
+    `Server started successfully at http://localhost:${process.env.PORT}`
+  );
 });
