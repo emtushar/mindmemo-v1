@@ -1,5 +1,5 @@
 App Demo:
 
 ```javascript
- let Link = https://mindmemo-v1-1.onrender.com/
+ https://mindmemo-v1-1.onrender.com/
 ```
